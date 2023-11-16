@@ -1,10 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Perfil from './components/Perfil'
 import Logo from './components/Logo'
-
-import './App.css'
+import Cards from './components/Cards'
+import './assets/css/style.css'
 
 function App() {
 
@@ -23,6 +21,11 @@ function App() {
 
 
       <div className="dashboard">
+        <h1>Dashboard</h1>
+        <div className="cards"> 
+            <Cards/>
+
+        </div>
   
       </div>
     </div>

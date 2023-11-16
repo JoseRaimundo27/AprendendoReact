@@ -1,0 +1,42 @@
+
+#root{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    box-sizing: border-box;
+    background-color: aqua;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background-color: rgb(255, 251, 245);
+    width: 80%;
+    height: 420px;
+    box-shadow: 5px 5px 20px gray;
+    margin: 0px;
+    padding: 0px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(208, 248, 248);
+    width: 40%;
+    position: relative;
+    left: 0%;
+    border-radius: 25px;
+}
+
+

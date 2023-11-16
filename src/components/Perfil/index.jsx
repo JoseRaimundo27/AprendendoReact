@@ -1,10 +1,11 @@
 import React from 'react'
+import naruto from '../../assets/naruto.jfif'
 
 export default function Perfil() {
   return (
-    <div>
+    <>
         <div className="logo">
-              <img src="" alt="logo" />
+              <img src={naruto} alt="logo" />
             </div>
             <div className="nome">
               <h1>José Santos</h1>
@@ -12,6 +13,6 @@ export default function Perfil() {
             <div className="funcao">
               <h2>Fulltack developer</h2>
             </div>
-    </div>
+    </>
   )
 }
