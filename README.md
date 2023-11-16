@@ -1,6 +1,6 @@
-# React + Vite
+# Learning about React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Reacreating a design portfolio that whe can find in https://dribbble.com/shots/15079437-Glass-Portifolio
 
 Currently, two official plugins are available:
 
