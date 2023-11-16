@@ -20,7 +20,7 @@ Instale as dependências
 
 ```bash
   npm install
-  npm install react-favicon
+  npm install react-icons
 ```
 
 Inicie o servidor
