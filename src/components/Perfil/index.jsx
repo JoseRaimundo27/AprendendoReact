@@ -6,13 +6,14 @@ export default function Perfil() {
     <>
         <div className="logo">
               <img src={naruto} alt="logo" />
-            </div>
-            <div className="nome">
-              <h1>José Santos</h1>
-            </div>
-            <div className="funcao">
-              <h2>Fulltack developer</h2>
-            </div>
+              <div className="logo-text">
+                <h1>José Santos</h1>
+                <h2>Fulltack developer<br />Engenhareiro da Computação</h2>
+              </div>
+   
+      </div>
+
+              
     </>
   )
 }

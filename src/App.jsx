@@ -15,7 +15,9 @@ function App() {
 
           <div className="logos">
             <Logo href= "https://github.com/JoseRaimundo27" name="Github"/>
-            <Logo href="https://github.com/JoseRaimundo27" name="Linkedin"/>
+            <Logo href="https://www.linkedin.com/in/jos%C3%A9-alves-41a8a5283/" name="Linkedin" />
+            <Logo href= "https://github.com/JoseRaimundo27" name="Github" />
+          
           </div>
       </div>
 
