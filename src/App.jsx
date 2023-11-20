@@ -3,6 +3,7 @@ import Perfil from './components/Perfil'
 import Logo from './components/Logo'
 import Cards from './components/Cards'
 import './assets/css/style.css'
+import SearchBar from './components/SearchBar'
 
 function App() {
 
@@ -23,7 +24,8 @@ function App() {
 
 
       <div className="dashboard">
-        <h1>Dashboard</h1>
+          <h1>Dashboard</h1>
+            <SearchBar/>
         <div className="cards"> 
             <Cards/>
 

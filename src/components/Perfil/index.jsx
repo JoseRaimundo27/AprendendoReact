@@ -8,7 +8,7 @@ export default function Perfil() {
               <img src={naruto} alt="logo" />
               <div className="logo-text">
                 <h1>José Santos</h1>
-                <h2>Fulltack developer<br />Engenhareiro da Computação</h2>
+                <h2>Fulltack developer<br />Engenheiro da Computação</h2>
               </div>
    
       </div>
