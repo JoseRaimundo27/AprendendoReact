@@ -10,27 +10,27 @@ function App() {
   return (
     <div className="container">
       <div className="card">
-          <div className="perfil">
-            <Perfil/>
-          </div>
+        <div className="perfil">
+          <Perfil />
+        </div>
 
-          <div className="logos">
-            <Logo href= "https://github.com/JoseRaimundo27" name="Github"/>
-            <Logo href="https://www.linkedin.com/in/jos%C3%A9-alves-41a8a5283/" name="Linkedin" />
-            <Logo href= "https://github.com/JoseRaimundo27" name="Github" />
-          
-          </div>
+        <div className="logos">
+
+          <Logo href="https://github.com/JoseRaimundo27" name="Github" />
+          <Logo href="https://www.linkedin.com/in/jos%C3%A9-alves-41a8a5283/" name="Linkedin" />
+          <Logo href="" name="Whatssap" />
+        </div>
       </div>
 
 
       <div className="dashboard">
-          <h1>Dashboard</h1>
-            <SearchBar/>
-        <div className="cards"> 
-            <Cards/>
+        <h1>Dashboard</h1>
+        <SearchBar />
+        <div className="cards">
+          <Cards />
 
         </div>
-  
+
       </div>
     </div>
   )

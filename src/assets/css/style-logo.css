@@ -1,0 +1,13 @@
+.logo-wrapper {
+    display: flex;
+    margin-left: 50px ;
+    gap: 5px;
+    height: 40px;
+    align-items: center;
+}
+
+span{
+  
+    font-weight: 700;
+    font-size: 13px;
+}
