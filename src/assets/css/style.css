@@ -51,16 +51,17 @@
 .perfil{
     width: 100%;
     height: 40%;
-    
+
 }
 .perfil img{
     margin-top: 15px;
     border-radius: 100%;
+    object-fit: cover;
     max-height: 90px;
 }
 .perfil h1{
     font-size: 23px;
-    font-weight: 300;
+    font-weight: bold;
     padding: 5px;
 }
 .perfil h2{
@@ -78,8 +79,20 @@
 .logos a{
     font-size: 22px;
 }
+.logo-wrapper{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items:flex-start ;
+}
+.logo-wrapper a {
+    text-align: justify;
+    margin-left: 25%;
+}
+.logo-wrapper a span {
+    padding: 5px;
 
-
+}
 
 .dashboard{
 
@@ -97,8 +110,8 @@
     border-radius: 30px;
     width: 100%;
     border: none;
-
 }
+
 
 
 
